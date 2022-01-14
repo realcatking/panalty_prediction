@@ -358,7 +358,7 @@ model.compile(
     loss=my_losses,
     optimizer=Adam(learning_rate),
     metrics=['binary_accuracy'],
-    loss_weights=[3.,1., 3.]
+    loss_weights=[2.,1., 2.]
 )
 
 
